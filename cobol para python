@@ -1,0 +1,26 @@
+def sistema_alunos():
+    print("=== SISTEMA DE CADASTRO DE ALUNOS ===")
+
+    num_alunos = 5
+    nomes = []
+    notas = []
+
+    total_notas = 0.0
+
+    for i in range(num_alunos):
+        nome = input(f"Digite o nome do aluno {i + 1}: ")
+        nota = float(input(f"Digite a nota de {nome}: "))
+        nomes.append(nome)
+        notas.append(nota)
+        total_notas += nota
+
+    media_alunos = total_notas / num_alunos
+
+    print("\n=== LISTA DE ALUNOS ===")
+    for i in range(num_alunos):
+        print(f"{nomes[i]} | Nota: {notas[i]:.2f}")
+
+    print(f"\nMédia da turma: {media_alunos:.2f}")
+
+if __name__ == "__main__":
+    sistema_alunos()
