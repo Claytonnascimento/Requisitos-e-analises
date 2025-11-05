@@ -23,6 +23,7 @@ Comparação final:
 Se ambos conferirem → CPF é válido 
 
 B) Melhorias do projeto
+
 A versão inicial do projeto apresentava apenas dois campos: Nome e Email.
 Foram adicionados novos campos e aprimorou-se a interface.
 
@@ -41,20 +42,33 @@ Foram adicionados novos campos e aprimorou-se a interface.
 
 
 C) Documentação do Sistema
-Requisitos Funcionais
+
+Requisitos Funcionais:
+
 RF001: O sistema deve permitir o cadastro de novos usuários.
+
 RF002: O sistema deve validar os campos obrigatórios (nome, email e senha).
+
 RF003: O sistema deve armazenar os dados em um banco de dados.
+
 RF004: O sistema deve permitir a consulta dos usuários cadastrados.
+
 RF005: O sistema deve permitir a atualização e exclusão de usuários.
+
 RF006: O sistema deve garantir que o email seja único no cadastro.
 
 Requisitos Não Funcionais
+
 RNF001: O sistema deve ser acessível via navegador web.
+
 RNF002: O layout deve ser responsivo (ajustar-se a diferentes tamanhos de tela).
+
 RNF003: A interface deve ser simples e intuitiva.
+
 RNF004: O sistema deve validar entradas de dados (ex: formato do email).
+
 RNF005: O tempo de resposta para ações deve ser inferior a 2 segundos.
+
 RNF006: O sistema deve armazenar as senhas de forma segura (criptografia).
 
 Diagrama Entidade Relacionamento
